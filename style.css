@@ -1,0 +1,145 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #0f172a;
+}
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(180deg, #edf2f7 0%, #ffffff 65%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px 24px;
+}
+
+.hero-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;        
+    margin-bottom: 20px;    
+    
+}
+
+
+.hero p {
+    font-size: 1.05rem;
+    color: #475569;
+    margin-bottom: 28px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 999px;
+    background: #0f172a;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.hero-button:hover {
+    background: #1e293b;
+    transform: translateY(-2px);
+}
+
+.section-content { max-width: 1100px; margin: 0 auto; padding: 100px 24px; }
+
+.about-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 24px 50px rgba(15, 23, 42, 0.08);
+}
+
+.about-card h2 {
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+}
+
+.about-card p {
+    line-height: 1.8;
+    color: #475569;
+    max-width: 860px;
+}
+
+.portfolio-section h2,
+.contact-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid {
+    display: flex;             
+    flex-wrap: wrap;           
+    gap: 24px;                 
+    margin-top: 40px;          
+}
+
+
+.portfolio-card {
+    padding: 28px;
+    background: #ffffff;
+    border-radius: 22px;
+    
+    
+}
+
+.portfolio-card:hover {
+    transform: translateY(-6px);
+    
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-bottom: 18px;
+}
+
+.portfolio-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.portfolio-card p {
+    color: #475569;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section p {
+    color: #475569;
+    max-width: 740px;
+    margin: 0 auto 28px;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 999px;
+    background: #0f172a;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.cta-button:hover {
+    background: #1e293b;
+    transform: translateY(-1px);
+}
